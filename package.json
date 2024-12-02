@@ -1,0 +1,32 @@
+{
+  "name": "10-cafeteria",
+  "version": "1.0.0",
+  "description": "Aprendiento SASS, gulp, ccs y mas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jose Alvarez",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "gulp": "^5.0.0",
+    "gulp-avif": "^1.1.1",
+    "gulp-debug": "^5.0.1",
+    "gulp-imagemin": "^9.1.0",
+    "gulp-postcss": "^10.0.0",
+    "gulp-sass": "^6.0.0",
+    "gulp-webp": "^5.0.0",
+    "sass": "^1.81.0",
+    "sharp": "^0.33.5"
+  },
+  "browserslist": [
+    "last 1 version",
+    ">1%"
+  ],
+  "dependencies": {
+    "glob": "^11.0.0",
+    "rimraf": "^6.0.1",
+    "uuid": "^11.0.3"
+  }
+}
