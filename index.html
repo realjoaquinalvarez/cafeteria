@@ -2,108 +2,111 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cafetería SASS</title>
-    <link rel="stylesheet" href="build/css/app.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova&family=Raleway:wght@700;900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/app.css">
 </head>
 <body>
     <header class="header header-inicio">
-        <div class="contenido-header contenedor ">
+        <div class="contenido-header contenedor">
             <div class="barra">
                 <div class="logo">
-                    <img src="/src/img/logo.svg" alt="logo cafeteria">
+                    <img src="build/img/logo.svg" alt="logo cafeteria">
                 </div>
 
                 <nav class="nav-principal">
-                    <a class="activo" ="index.html">Inicio</a>
+                    <a class="activo" href="index.html">Inicio</a>
                     <a href="nosotros.html">Nosotros</a>
                     <a href="proceso.html">Proceso</a>
-                    <a href="menu.html">Menu</a>
-                    <a href="galeria.html">Galeria</a>
+                    <a href="menu.html">Menú</a>
+                    <a href="galeria.html">Galería</a>
                     <a href="contacto.html">Contacto</a>
                 </nav>
             </div>
+
             <div class="texto-header">
-                <h1>Disfruta una deliciosa taza de cafe</h1>
+                <h1>Disfruta una deliciosa taza de café</h1>
             </div>
         </div>
     </header>
 
-    <main class="contenedor contenido-principal">
+    <main class="contenedor contenido-principal text-center">
         <section class="conoce">
             <h2><span>Conoce más</span> sobre nosotros </h2>
-     
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam maxime excepturi itaque quod dolorum, eos temporibus quibusdam. Minus magnam corporis voluptas nisi ab dignissimos nulla eligendi repellendus aliquam nihil. Omnis.</p>
+
+            <p>En La Cafetería, cada momento cuenta. Nos dedicamos a ofrecer una experiencia inolvidable, con una mezcla perfecta de sabores auténticos y un ambiente acogedor que te hace sentir como en casa.
+                Seleccionamos cuidadosamente los mejores granos de café y utilizamos métodos de preparación artesanal para asegurarnos de que cada taza sea especial. Nuestro menú también incluye irresistibles postres y una variedad de tés, pensados para acompañar tus momentos más significativos.</p>
         </section>
 
         <section class="iconos">
             <ul class="listado-iconos">
                 <li>
-                    <img src="build/img/icono_cafe.svg" alt="icono cafe">
+                    <img src="build/img/icono_cafe.svg" alt="icono café">
                     <p>Café</p>
                 </li>
-                
+
                 <li>
-                    <img src="build/img/icono_postre.svg" alt="icono cafe">
-                    <p>Postre</p>
+                    <img src="build/img/icono_postre.svg" alt="icono café">
+                    <p>Postres</p>
                 </li>
-                
+
                 <li>
-                    <img src="build/img/icono_te.svg" alt="icono cafe">
+                    <img src="build/img/icono_te.svg" alt="icono café">
                     <p>Té</p>
                 </li>
             </ul>
         </section>
 
         <section class="experiencia">
-            <h2><span>Vive la</span>experiencia</h2>
-            
+            <h2><span>Vive la</span> experiencia </h2>
+
             <div class="galeria">
                 <div class="imagen">
-                    <img src="build/img/galeria/galeria_01.jpg" alt="galeria 1">
+                    <img src="build/img/galeria/galeria_01.jpg" alt="galeria">
                 </div>
                 <div class="imagen">
-                    <img src="build/img/galeria/galeria_02.jpg" alt="galeria 2">
+                    <img src="build/img/galeria/galeria_02.jpg" alt="galeria">
                 </div>
                 <div class="imagen">
-                    <img src="build/img/galeria/galeria_03.jpg" alt="galeria 3">
+                    <img src="build/img/galeria/galeria_03.jpg" alt="galeria">
                 </div>
                 <div class="imagen">
-                    <img src="build/img/galeria/galeria_04.jpg" alt="galeria 4">
+                    <img src="build/img/galeria/galeria_04.jpg" alt="galeria">
                 </div>
                 <div class="imagen">
-                    <img src="build/img/galeria/galeria_05.jpg" alt="galeria 5">
+                    <img src="build/img/galeria/galeria_05.jpg" alt="galeria">
                 </div>
                 <div class="imagen">
-                    <img src="build/img/galeria/galeria_06.jpg" alt="galeria 6">
+                    <img src="build/img/galeria/galeria_06.jpg" alt="galeria">
                 </div>
                 <div class="imagen">
-                    <img src="build/img/galeria/galeria_07.jpg" alt="galeria 7">
+                    <img src="build/img/galeria/galeria_07.jpg" alt="galeria">
                 </div>
                 <div class="imagen">
-                    <img src="build/img/galeria/galeria_08.jpg" alt="galeria 8">
+                    <img src="build/img/galeria/galeria_08.jpg" alt="galeria">
                 </div>
                 <div class="imagen">
-                    <img src="build/img/galeria/galeria_09.jpg" alt="galeria 9">
+                    <img src="build/img/galeria/galeria_09.jpg" alt="galeria">
                 </div>
                 <div class="imagen">
-                    <img src="build/img/galeria/galeria_10.jpg" alt="galeria 10">
+                    <img src="build/img/galeria/galeria_10.jpg" alt="galeria">
                 </div>
+
             </div>
         </section>
+
     </main>
 
     <section class="nuestro-menu">
         <h2 class="heading-blanco"><span>Nuestro delicioso</span>Menú</h2>
-        
+
         <div class="contenedor grid-menu">
             <section class="menu cafe">
-                <h3>Cafe</h3>
+                <h3>Café</h3>
                 <ul>
                     <li>
                         <p>Café Latte <span>Café Espresso con leche caliente evaporada</span> </p>
@@ -134,10 +137,12 @@
                         <p class="precio">$39</p>
                     </li>
                 </ul>
+
             </section>
 
             <section class="menu comida">
                 <h3>Comida</h3>
+
                 <ul>
                     <li>
                         <p>Baguette de Pollo <span>Delicioso Baguette con pollo a la plancha</span> </p>
@@ -171,6 +176,38 @@
             </section>
         </div>
     </section>
+
+    <section class="nuestros-testimoniales contenedor bg-white margin-negativo-10">
+        <h2><span>Lo que dicen nuestros</span>Clientes</h2>
+
+        <div class="testimonial">
+            <p>"Cada mañana, La Cafetería es mi primer destino. No solo por su excelente café, sino también por la calidez del equipo. Siempre encuentro un momento de paz aquí antes de comenzar el día."</p>
+
+            <p class="autor">- Dra. Micaela García</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="contenedor contenido-footer bg-white">
+            <div class="footer-box ubicacion">
+                <h3>Ubicación</h3>
+                <p>Ciudad del Este, Paraguay</p>
+                <p>Avda. General Garay</p>
+            </div>
+            <div class="footer-box reservacion">
+                <h3>Reservación</h3>
+                <p>Tel. +595 985 615109</p>
+                <a href="tel:+595985615109">Llamar</a>
+            </div>
+            <div class="footer-box horario">
+                <h3>Horario</h3>
+                <p>Lun-Jue: 11:00 - 22:00</p>
+                <p>Vie-Sab: 09:00 - 24:00</p>
+                <p>Domingo: Cerrado</p>
+            </div>
+        </div>
+        <p class="copyright">Todos los derechos reservados. @realjoaquinalvarez</>
+    </footer>
 
 </body>
 </html>

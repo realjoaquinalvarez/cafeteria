@@ -4,27 +4,21 @@
 .iconos {
     margin-top: 5rem;
     .listado-iconos {
-
-        @include m.tablet {
-            @include m.grid( 3, 2rem )
+        @include m.tablet { 
+            @include m.grid(3, 2rem);
         }
-        
 
         li {
-
             img {
                 margin: 0 auto;
                 width: 12rem;
             }
-            
-            p{
+            p {
                 font-family: v.$fuenteCursiva;
                 font-size: 3.2rem;
                 color: v.$primario;
-            }    
+            }
         }
         
     }
-   
-    
 }
