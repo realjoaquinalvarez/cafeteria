@@ -19,3 +19,9 @@
 
     }
 }
+
+@mixin grid( $col, $Nrems ) {
+    display: grid;
+    grid-template-columns: repeat( $col , 1fr);
+    gap: $Nrems;
+}
